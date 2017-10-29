@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_citas_programadas"
+            android:icon="@drawable/ic_citas_programadas"
+            android:title="Citas Programadas" />
+        <item
+            android:id="@+id/nav_historial_citas"
+            android:icon="@drawable/ic_historial_citas"
+            android:title="Historial de citas" />
+    </group>
+
+    <item android:title="Aplicación">
+        <menu>
+            <item
+                android:id="@+id/nav_configuracion"
+                android:icon="@drawable/ic_configuraciones"
+                android:title="Configuración" />
+            <item
+                android:id="@+id/nav_acerca_de"
+                android:icon="@drawable/ic_acerca_de"
+                android:title="Acerca de" />
+            <item
+                android:id="@+id/nav_cerrar_sesion"
+                android:icon="@drawable/ic_cerrar_sesion"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>
